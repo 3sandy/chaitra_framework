@@ -97,7 +97,7 @@ public class WebDriverUtility {
 	 * @param index
 	 */
 	public void handleDropDown(WebElement element, int index)
-	{
+	{	
 		Select s = new Select(element);
 		s.selectByIndex(index);
 	}
@@ -261,7 +261,7 @@ public class WebDriverUtility {
 	/**
 	 * Switch to frame based on index
 	 * @param driver
-	 * @param index
+	 * @param index+
 	 */
 	public void switchToFrame(WebDriver driver, int index)
 	{
